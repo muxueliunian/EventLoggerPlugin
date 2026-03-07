@@ -96,7 +96,7 @@ namespace EventLoggerPlugin
         // 排除佐岳充电,SS,继承,老登三选一,第三年凯旋门（输/赢）,以及无事发生直接到下一回合的情况
         public static readonly int[] ExcludedEvents = [809043003, 400006112, 400000040, 400006474, 400006439, 830241003, -1];
         // 友人和团队卡不计入连续事件，这里仅排除这几个
-        public static readonly int[] ExcludedFriendCards = [30160, 30137, 30067, 30052, 10104, 30188, 10109, 30207, 30241, 30257, 30276, 10128, 10138];
+        public static readonly int[] ExcludedFriendCards = [30160, 30137, 30067, 30052, 10104, 30188, 10109, 30207, 30241, 30257, 30276, 10128, 10138, 10141, 30290];
         // 这些回合不能触发连续事件
         public static readonly int[] ExcludedTurns = [1, 25, 31, 35, 37, 38, 39, 40, 49, 51, 55, 59, 61, 62, 63, 64, 72, 73, 74, 75, 76, 77, 78];
 
